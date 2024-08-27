@@ -16,11 +16,11 @@ Before you begin, ensure you have met the following requirements:
 Clone the forked repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/bookstore-api.git
+https://github.com/tushar-agg461/College_Dunia_Assignment.git
 ```
 Navigate to the Project Directory
 ```bash
-cd bookstore-api
+cd server
 ```
 * Install all necessary Node.js packages by running:
 
@@ -40,12 +40,12 @@ npm run start
 Create a .env file in the root directory of your project and add the following environment variables:
 
 ```bash
-MONGODB_URI=your_mongodb_uri
+MONGODB_URI= your_mongodb_uri
 PORT=your_port_number (default is 3000)
 ```
-For example:
+### For example:
 ```bash
-MONGODB_URI=mongodb://localhost:27017/bookstore
+MONGODB_URI=mongodb://localhost:27017/server 
 PORT=3000
 ```
 # API Endpoints
@@ -67,7 +67,7 @@ Sorting: Use ?sortby=publishedDate&ord=desc to sort results.
 ## Here's a quick overview of the project's folder structure:
 
 ```bash
-src/
+server/
 ├── models/
 │   └── book.js
 ├── routes/
@@ -77,4 +77,4 @@ src/
 ```
 # Documentation and Links 
 * [Postman Collection Link](https://documenter.getpostman.com/view/26463895/2sAXjGduh5)
-* [Github Link]()
+* [Github Link](https://github.com/tushar-agg461/College_Dunia_Assignment/)
